@@ -7,6 +7,9 @@ Calculator.geometry("384x620")
 Calculator.resizable(False, False)
 Calculator.config(bg="#2BCECE")
 
+def Result():
+    pass
+
 outputFrame = ttk.CTkFrame(Calculator,height=100)
 
 result = Canvas(outputFrame, height=152)
